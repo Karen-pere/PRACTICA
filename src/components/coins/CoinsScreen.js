@@ -17,7 +17,7 @@ class CoinsScreen extends Component{
     render(){
         return(
             <View style={styles.container}>
-                <Text style={styles.btnText}>Mi primer pantalla realizado con los alumno del DSM-53 </Text>
+                <Text style={styles.btnText}>Mi primer pantalla DSM-53 </Text>
                 <Pressable  style = {styles.btn} onPress={this.handlesPress}><Text style={styles.btnText}>Ir  a Detalle </Text></Pressable>
             </View>
         )
