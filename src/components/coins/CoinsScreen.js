@@ -10,7 +10,7 @@ class CoinsScreen extends Component{
     
     //declaros una funcion para llamar con props la vista de detalle
     handlesPress = () => {
-        console.log("el grupo DSM-54 ENTRA A LA PANTALLA DETALLE");
+        console.log("el grupo DSM-53 ENTRA A LA PANTALLA DETALLE");
         this.props.navigation.navigate('CoinDetailsScreen')
     }
 
